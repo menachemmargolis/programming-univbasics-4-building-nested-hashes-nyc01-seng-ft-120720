@@ -11,7 +11,8 @@ def monopoly_with_second_tier
   # complexity
   {:railroads=>{}}
 monopoly_with_second_tier[:railroads][:pieces]=4
-
+monopoly_with_second_tier[:railroads][:rent_in_dollars]={}
+monopoly_with_second_tier[:railroads][:names]={}
 end
 binding.pry
 def monopoly_with_third_tier
